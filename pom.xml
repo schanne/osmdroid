@@ -118,7 +118,7 @@
             <dependency>
                 <groupId>com.squareup.leakcanary</groupId>
                 <artifactId>leakcanary-android</artifactId>
-                <version>1.4-beta2</version>
+                <version>1.6.3</version>
             </dependency>
             <dependency>
                 <groupId>ch.acra</groupId>
@@ -380,7 +380,7 @@
                                 <phase>package</phase>
                                 <inherited>true</inherited>
                                 <configuration>
-                                    <archiveDirectory />
+                                    <archiveDirectory/>
                                     <includes>
                                         <include>target/*.apk</include>
                                     </includes>
