@@ -51,7 +51,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <android.target>23</android.target>
-        <forge.version>0.6.0</forge.version>
+        <forge.version>0.16.0</forge.version>
     </properties>
 
     <dependencyManagement>
@@ -380,7 +380,7 @@
                                 <phase>package</phase>
                                 <inherited>true</inherited>
                                 <configuration>
-                                    <archiveDirectory />
+                                    <archiveDirectory/>
                                     <includes>
                                         <include>target/*.apk</include>
                                     </includes>
