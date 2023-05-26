@@ -30,7 +30,7 @@
 		<dependency>
 			<groupId>org.xerial</groupId>
 			<artifactId>sqlite-jdbc</artifactId>
-			<version>3.7.2</version>
+			<version>3.41.2.2</version>
 		</dependency>
 
       
@@ -65,15 +65,15 @@
               
                 
 								<copy tofile="src/main/java/org/osmdroid/tileprovider/util/StreamUtils.java">
-									<fileset file="../osmdroid-android/src/main/java/org/osmdroid/tileprovider/util/StreamUtils.java" />
+									<fileset file="../osmdroid-android/src/main/java/org/osmdroid/tileprovider/util/StreamUtils.java"/>
                   
 								</copy>
 								<copy tofile="src/main/java/org/osmdroid/util/GEMFFile.java">
-									<fileset file="../osmdroid-android/src/main/java/org/osmdroid/util/GEMFFile.java" />
+									<fileset file="../osmdroid-android/src/main/java/org/osmdroid/util/GEMFFile.java"/>
                   
 								</copy>
 								<copy todir="src/main/java/org/osmdroid/api/">
-									<fileset dir="../osmdroid-android/src/main/java/org/osmdroid/api/" />
+									<fileset dir="../osmdroid-android/src/main/java/org/osmdroid/api/"/>
                   
 								</copy>
                 
