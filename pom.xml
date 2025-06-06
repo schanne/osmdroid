@@ -100,7 +100,7 @@
             <dependency>
                 <groupId>org.json</groupId>
                 <artifactId>json</artifactId>
-                <version>20080701</version>
+                <version>20231013</version>
                 <scope>provided</scope>
             </dependency>
             <dependency>
@@ -380,7 +380,7 @@
                                 <phase>package</phase>
                                 <inherited>true</inherited>
                                 <configuration>
-                                    <archiveDirectory />
+                                    <archiveDirectory/>
                                     <includes>
                                         <include>target/*.apk</include>
                                     </includes>
